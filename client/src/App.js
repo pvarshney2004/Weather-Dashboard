@@ -16,7 +16,7 @@ const App = () => {
     setWeatherData(null);
     try {
       const response = await axios.get(
-        `http://localhost:4000/weather?city=${city}`
+        `http://localhost:5000/weather?city=${city}`
       );
       setWeatherData(response.data);
     } catch (err) {
