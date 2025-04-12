@@ -4,6 +4,17 @@ A full-stack Weather Application built with **React** for the frontend and **Nod
 
 ---
 
+## 📁 Project Structure
+
+```bash
+weather-app/
+├── client/       # React Frontend
+├── server/       # Node.js Backend
+├── README.md
+├── .gitignore
+
+```
+
 ## 🚀 Features
 
 - 🔍 Search weather by city name
@@ -23,7 +34,7 @@ Follow these steps to set up the project on your local machine.
 ```bash
 
 git clone https://github.com/pvarshney2004/Weather-Dashboard.git
-cd weather-app
+cd weather-dashboard
 ```
 
 ### 2. Set up the Backend (Server)
@@ -54,3 +65,21 @@ cd client
 npm install
 npm start
 ```
+
+### 4. Configure Backend URL in Frontend (Manual Step)
+#### If you are running the backend server on a port other than 5000, you need to update the frontend API URL manually.
+
+
+### Steps:
+#### Open the file
+```bash
+client/src/App.js
+```
+
+#### Locate the fetchData function:
+Change the port number according to your backend server port.
+For example, if your backend runs on port 7000, update it to:
+```javascript
+`http://localhost:7000/weather?city=${city}`
+```
+
