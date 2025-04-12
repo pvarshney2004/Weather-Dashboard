@@ -1,0 +1,27 @@
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.error {
+  color: #ff4d4f;
+  background-color: #fff1f0;
+  border: 1px solid #ffa39e;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.loading {
+  color: #1890ff;
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+
